@@ -11,7 +11,7 @@ def assembled_aoh
 end
 
 def literal_aoh
-  DON_G.sort,JOELLE_VD.sort,PAT_M.sort,KATE_G.sort,BRUCE_G.sort 
+  assembled_aoh(DON_G.sort,JOELLE_VD.sort,PAT_M.sort,KATE_G.sort,BRUCE_G.sort)
 end
 
 def aoh_lookup(aoh, row, key)
